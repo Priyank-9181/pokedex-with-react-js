@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  height: auto;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  background-color: #1d3c59;
+  color: white;
+}
+
+.container h1 {
+  flex-grow: 1;
+  margin: 10px;
+}
+
+.container ul {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+  padding-right: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}

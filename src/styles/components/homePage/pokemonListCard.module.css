@@ -1,0 +1,70 @@
+.listContainer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding-top: 20px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.cardContainer {
+  width: 225px;
+  background-color: aqua;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.cardImgContainer {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.cardImgContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: all 500ms linear;
+  filter: grayscale(100%);
+  /* filter: brightness(0%); */
+}
+
+.cardImgContainer img:hover {
+  filter: grayscale(0%);
+  /* filter: brightness(100%); */
+}
+
+.cardDescContainer {
+  width: 100%;
+  height: 50%;
+  background-color: #d9d9d9;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-left: 15px;
+}
+
+.cardDescContainer h2 {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.cardDescContainer a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8rem;
+}

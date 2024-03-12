@@ -1,0 +1,33 @@
+.container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container input {
+  width: 25%;
+  border: none;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  outline: none;
+  text-overflow: ellipsis;
+}
+
+.container button {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #1d3c59;
+  border: none;
+  cursor: pointer;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.container button:hover {
+  background-color: #172d42;
+}
